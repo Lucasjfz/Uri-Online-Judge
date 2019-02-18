@@ -6,6 +6,6 @@ var a = parseInt(entrada.shift())
 var b = parseInt(entrada.shift())
 var c = parseInt(entrada.shift())
 
-maiorab = (a+b+((a*b*c)*(a-b)))/2
+maiorab = Math.max(a,b,c)
 
 console.log(maiorab + ' eh o maior')
